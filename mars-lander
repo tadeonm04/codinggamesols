@@ -1,0 +1,5 @@
+if v_speed <= -40:
+  print('0 4')
+else:
+  ptiny('0 0')
+  
