@@ -1,0 +1,12 @@
+PI = []
+RES = []
+n = int(input())
+for i in range(n):
+    pi = int(input())
+    PI.append(pi)
+PI.sort()
+for j in range(len(PI)-1):
+    res = abs(PI[j+1] - PI[j])
+    RES.append(res)
+
+print(min(RES))
